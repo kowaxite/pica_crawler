@@ -30,7 +30,7 @@ jobs:
           # 订阅的关键词,会下载x天范围内上传的漫画    为空则关闭关键词订阅 用,分隔
           SUBSCRIBE_KEYWORD: お憑かれさま、黒瀬くん
           # 订阅的x天范围     git actions运行时填小一点,免得漫画过多邮箱推送不了,本地运行时随便填
-          SUBSCRIBE_DAYS: 1
+          SUBSCRIBE_DAYS: 0
           # 允许在下载完成后发送自定义消息,为空则不发送 例: https://api.day.app/{your_keys}/picacg下载成功
           BARK_URL: ${{secrets.BARK_URL}}
           #每下载一本漫画的间隔时间(秒),在下载大量漫画时可以设置的稍微大一些,免得哔咔服务器响应不过来
